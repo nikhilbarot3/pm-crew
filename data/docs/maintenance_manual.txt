@@ -1,0 +1,74 @@
+TURBOFAN ENGINE MAINTENANCE MANUAL — SYNTHETIC DEMO DATA
+=========================================================
+⚠️  This document is SYNTHETIC data created for the PM Crew hackathon demo.
+     It does NOT represent a real product or manufacturer.
+
+SECTION 1: FAN / LOW-PRESSURE COMPRESSOR (Fan/LPC) ASSEMBLY
+-------------------------------------------------------------
+The Fan/LPC assembly is the first stage of the turbofan. It compresses incoming
+air and splits flow between the core and bypass duct.
+
+Common failure indicators:
+- Elevated T24 (LPC outlet temperature) trending more than 8°C above baseline
+- Nf (fan speed) dropping more than 2% under constant throttle
+- Increased BPR variance across operating cycles
+
+Recommended inspection interval: every 2,000 flight cycles or when RUL < 30.
+
+Inspection procedure:
+1. Remove fan cowl panels (see Section 4).
+2. Inspect leading edges of fan blades for FOD nicks or corrosion.
+3. Check LPC stator vanes for cracking using dye-penetrant method.
+4. Measure tip clearances; reject if gap exceeds 0.045 in.
+5. Lubricate fan bearings per lubrication schedule (Section 7).
+
+Parts typically required:
+- Fan blade set (Part# FB-2240-SET) — lead time 3–5 days
+- LPC stator vane kit (Part# LPC-SV-KIT) — usually in stock
+- Fan bearing set (Part# FBG-1180) — lead time 7–10 days
+
+SECTION 2: HIGH-PRESSURE COMPRESSOR / CORE (HPC/Core)
+------------------------------------------------------
+The HPC further compresses air before combustion. Core faults are higher risk
+because they affect combustion stability.
+
+Common failure indicators:
+- T30 (HPC outlet temperature) > 1,620 K sustained
+- P30 (HPC outlet pressure) dropping > 5% from regime baseline
+- Nc (core speed) fluctuations of ±1.5% or more
+
+Recommended inspection interval: every 1,500 flight cycles or when RUL < 25.
+
+Inspection procedure:
+1. Borescope inspection through HPC access ports (Ports 3A, 3B, 3C).
+2. Check compressor blades for tip rub, erosion, or cracks.
+3. Inspect combustion liner for hot spots or burn-through.
+4. Verify fuel nozzle spray patterns against reference card.
+
+Parts typically required:
+- HPC blade set (Part# HPC-BL-STAGE3) — lead time 5–7 days
+- Combustion liner (Part# COMB-LNR-01) — lead time 10–14 days
+- Fuel nozzle set (Part# FN-SET-12) — usually in stock
+
+SECTION 3: TURBINE SECTION
+--------------------------
+The turbine extracts energy from the combustion gas to drive the compressor and fan.
+Turbine section faults develop slowly but accelerate near end of life.
+
+Common failure indicators:
+- T50 (turbine exit temperature) increasing trend > 10 K above regime mean
+- W31/W32 (bleed air flows) deviation > 3% from nominal
+- Gradual decline in thermal efficiency index
+
+Recommended inspection interval: every 1,800 flight cycles or when RUL < 40.
+
+Inspection procedure:
+1. Borescope inspection through turbine access ports (Ports 5A, 5B).
+2. Inspect HPT and LPT blades for oxidation, cracking, or spallation of TBC.
+3. Check turbine seals for wear or burn marks.
+4. Verify turbine case temperatures are within limits.
+
+Parts typically required:
+- HPT blade set (Part# HPT-BL-S1) — lead time 14–21 days (order early)
+- LPT blade set (Part# LPT-BL-S2) — lead time 7–10 days
+- Turbine seal kit (Part# TSK-003) — usually in stock

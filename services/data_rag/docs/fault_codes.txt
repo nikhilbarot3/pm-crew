@@ -1,0 +1,22 @@
+PRODUCTION LINE & TEST-CELL FAULT CODES — SYNTHETIC DEMO DATA
+=============================================================
+SYNTHETIC data created for the PM Crew hackathon demo. Not a real product or manufacturer.
+
+FAULT CODE E-55 — ASSEMBLY LINE STOPPED (VIBRATION INTERLOCK TRIP)
+Meaning: The line safety interlock tripped because a vibration sensor on the engine
+test stand exceeded its limit (above 4.5 mm/s RMS) for more than 3 seconds.
+Likely causes, in order: (1) loose or worn HPC/Core blade set or bearing set,
+(2) unbalanced fan assembly after reassembly, (3) faulty accelerometer or cable.
+Resolution:
+1. Keep the line stopped and apply lockout/tagout on the test stand.
+2. Check the accelerometer cable and mount; re-seat and re-run a 60-second idle check.
+3. If vibration persists, inspect the HPC/Core blade set and bearing set (see Maintenance Manual, Section 2).
+4. Re-balance the fan assembly if it was reassembled in the last shift.
+5. Clear the fault at the line controller and restart only after a supervisor signs off.
+Escalate to a maintenance supervisor if E-55 repeats within 24 hours.
+
+FAULT CODE E-21 — COOLANT PRESSURE LOW
+Resolution: check coolant reservoir level, inspect hoses, replace Seal gasket if leaking.
+
+FAULT CODE E-40 — TURBINE TEMPERATURE SENSOR DRIFT
+Resolution: recalibrate the EGT probe; replace the probe if drift exceeds 15 K.

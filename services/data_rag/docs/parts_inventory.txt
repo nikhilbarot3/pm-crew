@@ -1,0 +1,25 @@
+PARTS INVENTORY — SYNTHETIC DEMO DATA
+======================================
+⚠️  This document is SYNTHETIC data created for the PM Crew hackathon demo.
+
+As of 2026-11-13
+
+Part Number       | Description                     | Qty On Hand | On Order | Lead Time
+------------------|--------------------------------|-------------|----------|----------
+FB-2240-SET       | Fan blade set                  | 0           | 2        | 3–5 days
+LPC-SV-KIT        | LPC stator vane kit            | 3           | 0        | In stock
+FBG-1180          | Fan bearing set                | 1           | 0        | In stock
+HPC-BL-STAGE3     | HPC blade set (stage 3)        | 0           | 1        | 5–7 days
+COMB-LNR-01       | Combustion liner               | 0           | 0        | 10–14 days
+FN-SET-12         | Fuel nozzle set                | 4           | 0        | In stock
+HPT-BL-S1         | HPT blade set (stage 1)        | 0           | 0        | 14–21 days
+LPT-BL-S2         | LPT blade set (stage 2)        | 0           | 1        | 7–10 days
+TSK-003           | Turbine seal kit               | 2           | 0        | In stock
+FILTER-KIT-A      | Standard filter kit            | 8           | 0        | In stock
+BEARING-SET-B     | General bearing set            | 5           | 0        | In stock
+SEAL-GSK-01       | Seal gasket kit                | 6           | 0        | In stock
+
+Notes:
+- HPT blade set (HPT-BL-S1) has zero on hand and zero on order. Order immediately if Turbine score is high.
+- Combustion liner (COMB-LNR-01) is a long-lead item (10–14 days). Pre-order when RUL < 50 and HPC/Core score is high.
+- Fan blade set (FB-2240-SET) has 2 units on order, expected in 3–5 days.

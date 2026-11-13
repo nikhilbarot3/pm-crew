@@ -1,0 +1,34 @@
+MAINTENANCE WORK ORDER HISTORY — SYNTHETIC DEMO DATA
+======================================================
+⚠️  This document is SYNTHETIC data created for the PM Crew hackathon demo.
+
+WO-2026-0441 | Engine 002 | Completed 2026-10-28
+  Subsystem: HPC/Core
+  Symptoms: T30 reading 1,598 K sustained over 10 cycles; P30 dropping 4.2% from baseline.
+  Action: Borescope inspection. Replaced HPC blade set (Part# HPC-BL-STAGE3).
+          Found erosion on stage-3 blades consistent with ingested particulate.
+  Result: T30 normalized within 2 cycles post-repair. Engine returned to service.
+  Technician: J. Kowalski
+
+WO-2026-0398 | Engine 007 | Completed 2026-09-14
+  Subsystem: Fan/LPC
+  Symptoms: Nf declining 1.8% under constant throttle over 15 cycles.
+  Action: Inspected fan blades. Found 3 blades with leading-edge nicks (FOD).
+          Replaced fan blade set (Part# FB-2240-SET). Lubricated bearings.
+  Result: Nf returned to baseline. BPR variance reduced.
+  Technician: M. Torres
+
+WO-2026-0355 | Engine 010 | Completed 2026-08-03
+  Subsystem: HPC/Core
+  Symptoms: Routine inspection triggered by RUL alert at 60 cycles remaining.
+  Action: Replaced fuel nozzle set (Part# FN-SET-12). Combustion liner visual: OK.
+  Result: Efficiency index improved 2%. Continue monitoring.
+  Technician: J. Kowalski
+
+WO-2026-0301 | Engine 005 | Completed 2026-06-19
+  Subsystem: Turbine
+  Symptoms: T50 trending +12 K above regime mean over 20 cycles.
+  Action: Borescope inspection of HPT blades. Found mild oxidation on 4 blades.
+          Applied TBC touch-up. Replaced turbine seal kit (Part# TSK-003).
+  Result: T50 trend stabilized. Schedule HPT blade replacement within 60 cycles.
+  Technician: R. Patel
